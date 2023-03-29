@@ -49,11 +49,32 @@
 
     <h2>My Research</h2>
     <p>
-      My research focuses on [Your Research Topic]. I am particularly interested in [Specific Interests within Your Research Topic].
+      I'd like to share an interesting work here. The goal of my work is to build an occupancy detection system in commercial office build. This is a foundamental work for smart conference room and adaptive HVAC and lightening control system. 
     </p>
     <p>
-      Some key areas I've explored include [Area 1], [Area 2], and [Area 3]. My work has been published in [Relevant Publications or Conferences] and has received recognition in the form of [Awards or Grants, if applicable].
+      Considering the privacy issue, we build wireless sensor network using STM VL53L5 sensors. Here's a video to show the reading of sensors.
     </p>
+    <video src="output_concat.mp4" controls>
+      Sensor readings.
+    </video>
+    <p>
+      To save the installation cost and sensor engergy cost, we sparsely install it in the office room. Here's a video to show the Counting result in office room. The details of this work publiced in "Lu, H., Tuzikas, A., & Radke, R. J. (2021). A zone-level occupancy counting system for commercial office spaces using low-resolution time-of-flight sensors. Energy and Buildings, 252, 111390."
+    </p>
+    <video src="counting.mp4" controls>
+      Counting demo.
+    </video>
+    <p>
+      This work can answer "how many person are there in a certain zone?". This is the foundamantal information for HVAC control system. But for smart conference room, we need information in more precise details, like current location and future trajectories. Here I use Inverse Reinforcement Learning to do the trajectory and destination prediction using our sensor system. Here are three demo videos. The research detaisl will summarize and submit soon.
+    </p>
+    <video src="out_future_path_prediction.mp4" controls>
+      Heatmap of trajectory prediction.
+    </video>
+    <video src="output_destination_prediction.mp4" controls>
+      Heatmap of destination prediction.
+    </video>
+    <video src="po_predict.mp4" controls>
+      Prediction demo using our sensor system.
+    </video>
   </main>
 </body>
 </html>
